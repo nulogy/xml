@@ -8,6 +8,7 @@ version          '2.0.0'
 
 depends 'build-essential'
 depends 'chef-sugar'
+depends 'apt'
 
 %w(amazon arch centos debian fedora freebsd oracle redhat scientific suse ubuntu).each do |os|
   supports os
